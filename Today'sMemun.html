@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+img{
+  display: block;
+  margin: auto;
+}
+
+</style>
+    <meta charset="utf-8">
+
+
+    <title>MemunSk</title>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Memun;Sk</a>
+                      </div>
+                  
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                          <li><a href="Today'sMemun.html">Today's Memun</a></li>
+                          <li><a href="maSklist.html">maSk list</a></li>
+                          <li><a href="Checkon.html">Check on <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>!</a></li>
+                        </ul>
+            
+                      </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+          <br>
+          <form>
+            <p class="question">현재 위치를 알려주세요!: </p>
+            <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->
+              <button type="button" class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span> 내 위치
+              </button>
+            </div><!-- /.row -->
+            
+          </form>
+
+          <br>
+
+          <div class="alert alert-danger" role="alert">마스크 필수! 콜록콜록! 마스크 안 낄꺼면 걍 담배 펴ㅠ</div>
+
+          <br>
+        </div>
+        <br>
+        <div class="container">
+        <img src="매우나쁨.jpg" alt="Responsive image" length="350" width="350" class="img-circle">
+        </div>
+        <br>
+        
+        
+        <div class="container">
+        <p>미세 먼지 : 나쁨
+        <div class="progress">          
+          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+            <span class="sr-only">나쁨 (warning)</span>
+          </div>
+        </div></p>
+        <p>초미세 먼지 : 매우 나쁨
+        <div class="progress">
+          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+            <span class="sr-only">완전 나쁨 (danger)</span>
+          </div>
+        </div></p>
+        </div>
+                  
+    </div>
+</body>
